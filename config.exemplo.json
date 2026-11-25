@@ -1,0 +1,32 @@
+{
+  "usuario": "Ana",
+  "pastas_permitidas": ["/Users/ana/projetos"],
+  "navegador": "",
+  "max_simultaneas": 3,
+  "max_por_dia": 40,
+  "tempo_limite_min": 30,
+  "max_cerebro_por_dia": 400,
+  "cerebro": {
+    "tipo": "openai",
+    "url": "https://api.openai.com/v1",
+    "modelo": "nome-do-modelo",
+    "chave_env": "MN_CEREBRO_CHAVE"
+  },
+  "modelos": {
+    "opencode": "provedor/modelo"
+  },
+  "voz": {
+    "motor": "sistema",
+    "nome": "",
+    "tom": 0,
+    "velocidade": 1,
+    "microfone": "0",
+    "escuta": "chamada",
+    "editar": "confirmar",
+    "vocabulario": ["NomeDoMeuProduto", "NomeDoMeuCliente"]
+  },
+  "nexusyn": {
+    "url": "https://api.nexusyn.ai/v1/mcp",
+    "ref_chave": "op://Cofre/item-da-chave/credential"
+  }
+}
